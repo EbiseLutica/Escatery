@@ -1,0 +1,27 @@
+﻿// #SCRIPTNAME#
+// #DATE#
+// (C) Chikuwabu
+// Coder: 名前
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class #SCRIPTNAME# : BaseBehavior
+{
+
+	public override void Start () 
+	{
+		base.Start();
+		// TODO: スクリプトの初期化コードを記述します
+
+	}
+
+	public override void Update () 
+	{
+		base.Update();
+		// TODO: ゲームループで実行するコードを記述します
+
+	}
+
+}

@@ -1,0 +1,18 @@
+﻿// #SCRIPTNAME#
+// #DATE#
+// (C) Chikuwabu
+// Coder: 名前
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class #SCRIPTNAME# : CoroutineEventBehavior
+{
+	public override IEnumerator OnActivatedCoroutine(GameObject go)
+	{
+		// TODO: イベント発生時に実行するコードを記述します
+
+		yield break;
+	}
+}
