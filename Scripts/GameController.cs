@@ -7,6 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class GameController : BaseBehavior {
 
@@ -32,8 +33,8 @@ public class GameController : BaseBehavior {
 
 	public void WarpPlayer(Vector3 position, float angle)
 	{
-		base.Player.transform.position = position;
-		base.Player.GetComponent<FirstPersonController>().FaceTo(angle);
+		Destroy(base.Player);
+		SpawnPlayer(position, angle);
 	}
 
 
@@ -44,9 +45,9 @@ public class GameController : BaseBehavior {
 		base.Update();
 		if (base.Player == null)
 			return;
-		UIController.Crosshair.SetActive(base.Player.GetComponent<FirstPersonController>().InputEnabled = base.Player.GetComponent<PlayerEventHandler>().enabled = !IsLocked);
-
+		UIController.Crosshair.SetActive(base.Player.GetComponent<PlayerEventHandler>().enabled = base.Player.GetComponent<FirstPersonController>().enabled = !IsLocked);
 	}
+
 
 
 }
