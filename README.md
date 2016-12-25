@@ -29,6 +29,7 @@ Escatery は、Unity上でアドベンチャーゲームを制作するための
 **GitHub リポジトリはミラー用であり、メインリポジトリではありません。 GitHub上のPullReqやIssuesは一切受け付けないので注意してください。**
 
 質問、要望、バグ報告などは [Issues](https://git.surume.tk/Citrine/Escatery/issues) にどうぞ
+
 変更の取り込み依頼は [Pull Requests](https://git.surume.tk/Citrine/Escatery/pulls) にどうぞ
 
 # ライセンス
